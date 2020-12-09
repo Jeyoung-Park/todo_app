@@ -9,7 +9,7 @@
         font-size: 1.125rem;
         line-height: 1.5;
         color: white;
-        &::placeholder{ // &: 부모 선택자를 참조
+        &::placeholder{ // & : 현재 블록이 적용되는 선택자 참조, placeholder 앞에 ::
             color:#dee2e6;
         }
         //버튼을 제외한 모든 영역 차지
